@@ -1,0 +1,10 @@
+﻿CREATE TYPE dbo.CustomersTableType AS TABLE 
+(
+	Email NVARCHAR(256) NOT NULL,
+	Name NVARCHAR(256) NOT NULL,
+	[Address] NVARCHAR(MAX) NOT NULL,
+	IsActive BIT NOT NULL,
+	Latitude FLOAT NULL,
+	Longitude FLOAT NULL
+);
+
